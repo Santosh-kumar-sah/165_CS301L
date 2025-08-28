@@ -19,6 +19,7 @@ class FacultyPoly extends EmployeePoly{
     
 
     void details(){
+        super.details();//it will call parent class method also
         // method overriding or runtime polymorphism or dynamic binding or late binding
         System.out.println("Welcome Faculties.");
     }
@@ -28,13 +29,14 @@ class FacultyPoly extends EmployeePoly{
 public class Polymorphism {
 
     public static void main(String[] args) {
-        EmployeePoly e = new EmployeePoly();
-        e.name ="sameer";
-        e.details();
-        e.details(50000);
-        e.details("kiet");
+        // EmployeePoly e = new EmployeePoly();
+        // e.name ="sameer";
+        // e.details();
+        // e.details(50000);
+        // e.details("kiet");
 
         FacultyPoly f = new FacultyPoly();
+        f.name ="laxmi";
         f.details();
     }
 

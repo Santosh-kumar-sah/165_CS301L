@@ -12,7 +12,7 @@ public class method{
 
     // }
 
-    method(int id= 100, String name= "Default"){
+    method(int id, String name){
         this.id = id;
         this.name = name;
         
