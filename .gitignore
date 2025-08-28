@@ -1,1 +1,17 @@
 .vscode/.idea/*.iml
+*.class
+.DS_Store
+
+
+*.ctxt
+*.log
+.mtj.tmp/
+*.jar
+*.war   
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+Thumbs.db
